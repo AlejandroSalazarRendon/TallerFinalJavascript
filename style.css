@@ -1,0 +1,125 @@
+/* Estilos para el primer tema */
+.tema-1 li:nth-child(even) {
+    color: green;
+}
+
+/* Estilos para el segundo tema */
+.tema-2 li:nth-child(odd) {
+    color: #d1616c;
+}
+
+.Tema1,
+.Tema2 {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: #680b8c;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.Tema1 {
+    background-color: #07b948;
+  }
+  
+  .Tema2 {
+    background-color: #d1616c;
+  }
+  
+  .Tema1:hover,
+  .Tema2:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    transform:  scale(0.9);
+  }
+
+  h1{
+    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+    color: #146896;
+    font-size: 60px;
+    font-family: Cambria;
+    padding-left: 35%;
+    padding-top: 10;
+  }
+
+  ol{
+    padding: 0 30% 2% 35%;
+  }
+  
+#lista-frutas{
+    margin-right: 47%;
+}
+
+li{
+    
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-family: Cambria;
+    border: 1px solid black;
+    padding-right: 220px;
+    padding-left: 110px;
+}
+
+.botones{
+    padding-left: 37%;
+    padding-bottom: 25%;
+}
+
+
+.color-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .nav {
+    float: left;
+  }
+
+  .nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav li a:hover {
+    background-color: #111;
+  }
+
+  .h2-contacto {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #146896;
+    font-size: 30px;
+    font-family: Cambria;
+    padding-top: 10px;
+  }
+
+  .Titulo {
+
+    font-family: 'Roboto', sans-serif;
+    color: #323745;
+    font-size: 80px;
+    font-family: Cambria;
+    padding-left: 4%;
+    padding-top: 100;
+  
+  }
+
+  .Taller {
+
+    font-family: 'Roboto', sans-serif;
+    color: #313952;
+    font-size: 60px;
+    font-family: Cambria;
+    padding-left: 4%;
+    padding-top: 100;
+  
+  }

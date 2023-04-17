@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>    
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5)), url('contacto.jpg');
+        background-size: cover;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button[type="reset"] {
+      background-color: #ccc;
+    }
+    .alert {
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+    <ul class="color-nav">
+
+        <li class="nav"><a href="index.html">Inicio</a></li>
+        <li class="nav"><a href="frutas.html">Lista de Frutas</a></li>
+        <li class="nav"><a href="taller1.html">Portafolio</a></li>
+        
+    </ul>
+
+  <div class="container">
+    <h2 class="h2-contacto">Formulario de Contacto</h2>
+    <form id="contactForm">
+      <input type="text" id="nombre" placeholder="Nombre de quien escribe el mensaje">
+      <input type="email" id="correo" placeholder="Correo de quien escribe el mensaje">
+      <input type="text" id="asunto" placeholder="Asunto del correo">
+      <textarea id="mensaje" placeholder="Mensaje del correo"></textarea>
+      <button type="submit">Enviar</button>
+      <button type="reset">Resetear</button>
+    </form>
+    <div id="alerta" class="alert" style="display:none;"></div>
+  </div>
+  
+  <script  src="script.js"   ></script>
+</body>
+</html>

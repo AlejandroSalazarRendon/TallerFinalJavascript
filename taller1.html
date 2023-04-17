@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Taller 1</title>
+    <link rel="stylesheet" type="text/css" href="styleP.css">
+</head>
+
+<body>
+    <header>
+        <h1>Taller 1</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="taller1.html">Taller #1 variables e impresion</a></li>
+                <li><a href="taller2.html">Taller #2 condicionales </a></li>
+                <li><a href="taller3.html">Taller #3 Ciclos </a></li>
+                <li><a href="taller4.html">Taller #4 Arreglos</a></li>
+                <li><a href="taller5.html">Taller #5 Funciones</a></li>
+                <li><a href="taller6.html">Taller #6 Java</a></li>
+                <li><a href="HDV.html">Hoja de vida</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="talleres">
+
+        <article>
+            <h2>Taller #1 variables e impresion</h2>
+            <p> 1.	Realizar un programa el cual solicite su nombre y apellidos.</p>
+            <pre>
+			<code>
+                <span style="color: blue;">Proceso</span> nombres
+	
+                Definir nombre Como Caracter;
+                Definir apellidos Como Caracter;
+                
+                Escribir "¿Como te llamas?";
+                Leer nombre;
+                Escribir "¿Cuales son tus apellidos?";
+                Leer apellidos;
+                
+                Escribir "Hola, ",nombre," ",apellidos;
+	
+                <span style="color: blue;">FinProceso</span>
+            </code>
+            </pre>
+        </article>
+
+        <article>
+            
+            <p> 2. Realizar un programa el cual solicite su nombre, apellidos, edad y estatura.</p>
+            <pre>
+			<code>
+                <span style="color: blue;">Proceso</span> datos
+	
+                Definir nombre,apellido Como Caracter;
+                Definir edad Como Entero;
+                Definir estatura Como Real;
+                
+                Escribir "¿Cómo te llamas?";
+                Leer nombre;
+                
+                Escribir "¿Cuáles son tus apellidos?";
+                Leer apellido;
+                
+                Escribir "¿Que edad tienes?";
+                Leer edad;
+                
+                Escribir "¿Cuánto mides en metros?";
+                Leer estatura;
+                
+                Limpiar Pantalla;
+                
+                Escribir "Hola, soy ",nombre," ",apellido;
+                Escribir "mi estatura es de ",estatura, " metros";
+                Escribir "Tengo ",edad," años de edad";
+	
+                <span style="color: blue;">FinProceso</span>
+            </code>
+            </pre>
+        </article>
+
+        <article>
+            
+            <p> 3. Realizar un programa el cual solicite su nombre y apellidos, también debe capturar nombre y apellidos
+                de su padre y madre. Al finalizar debe imprimir en pantalla el siguiente mensaje "Yo [Nombre Completo],
+                soy hijo de [Nombre de la Madre] y [Nombre del Padre].</p>
+            <pre>
+			<code>
+                <span style="color: blue;">Proceso</span> padres
+	
+                Definir nombre,apellidos  Como Caracter;
+                Definir nombreMadre,nombrePadre Como Caracter;
+                Definir apellidoMadre,apellidoPadre Como Caracter;
+                
+                Escribir "¿Cómo te llamas?";
+                Leer nombre;
+                Escribir "¿Cuáles son tus apellidos?";
+                Leer apellidos;
+                
+                Escribir "¿Cual es el nombre de tu madre?";
+                Leer nombreMadre;
+                
+                Escribir "¿Cuales son los apellidos de tu madre?";
+                Leer apellidoMadre;
+                
+                Escribir "¿Cual el nombre de tu padre?";
+                Leer nombrePadre;
+                
+                Escribir "¿Cuales son los apellidos de tu padre?";
+                Leer apellidoPadre;
+                
+                Escribir "Yo, ",nombre," ",apellidos," soy hijo de ", nombreMadre," ",apellidoMadre," y ",nombrePadre," ",apellidoPadre;
+	
+                <span style="color: blue;">FinProceso</span>
+            </code>
+            </pre>
+        </article>
+
+        <article>
+            
+            <p> 4. Realizar un programa el cual solicite el nombre de una ciudad capital y el país. Al finalizar debe
+                imprimir en pantalla el siguiente mensaje "La ciudad [Nombre de la Ciudad], es la capital del país
+                [Nombre del País]</p>
+            <pre>
+			<code>
+                <span style="color: blue;">Proceso</span> ciudad
+	
+                Definir ciudades,pais Como Caracter;
+	
+                Escribir "Nombre una ciudad que sea una capital : ";
+                Leer ciudades;
+                
+                Escribir "¿Cual es el país de esa capital?";
+                Leer pais;
+                
+                Escribir "La ciudad ",ciudades,", es la capital del país ",pais;
+	
+                <span style="color: blue;">FinProceso</span>
+            </code>
+            </pre>
+        </article>
+
+
+        <article>
+            <p> 5. Realizar un programa el cual solicite el nombre de su mascota, edad de la mascota, el tipo de mascota
+                y su nombre completo. Al finalizar el sistema debe e imprimir en pantalla el siguiente mensaje: [Nombre
+                de Mascota] es un(a) [Tipo de Mascota], el cual, tiene [Edad de la Mascota] años de edad y [Nombre
+                Completo] es actualmente su dueño(a).</p>
+            <pre>
+			<code>
+                <span style="color: blue;">Proceso</span> nombres
+	
+                Definir nombreMascota Como Caracter;
+                Definir edadMascota Como Entero;
+                Definir tipoDeMascota Como Caracter;
+                Definir nombre Como Caracter;
+                
+                Escribir "¿Cuál es el nombre de la mascota?";
+                Leer nombreMascota;
+                
+                Escribir "¿Cual es la edad  de tu mascota en años: ";
+                Leer edadMascota;
+                
+                Escribir "¿Que tipo de mascota es ?";
+                Leer tipoDeMascota;
+                
+                Escribir "Nombre completo del propietario : ";
+                Leer nombre;
+                
+                Escribir nombreMascota," es un ",tipoDeMascota,", el cual, tiene ",edadMascota," año(s) de edad y ",nombre," es su actual dueño.";
+	
+                <span style="color: blue;">FinProceso</span>
+            </code>
+            </pre>
+
+            <h2> Video en youtube Taller #1 PseInt Variables e impresion </h2>
+            <iframe   width="560" height="315" src="https://www.youtube.com/embed/HnyNfBoTSn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+    </section>
+
+    <section id="acerca-de-mi">
+        <h2>Acerca de mí</h2>
+        <p>Información sobre mí y mis habilidades en PSeInt y Java.</p>
+        <a href="Hoja de vida Alejandro Salazar Rendón.pdf">Descarga mi hoja de vida</a>
+    </section>
+
+    <footer>
+        <p>© 2023 Portafolio de Alejandro Salazar Rendón.</p>
+    </footer>
+</body>
+
+</html>
